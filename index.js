@@ -127,7 +127,7 @@ class ReserveItem extends PureComponent {
 
 
                             <Text
-                                // numberOfLines={1}
+                                numberOfLines={2}
                                 style={{
                                     color: colors.colorText,
                                     marginLeft: 12,
