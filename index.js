@@ -160,8 +160,7 @@ class ReserveItem extends PureComponent {
 
     render() {
         const data = this.props.data;
-        // const dataProps = this.props.data;
-        // const data = { items: [{ ...dataProps }] }
+
         const dataSection = {};
         const ordered = {};
 
@@ -205,11 +204,6 @@ class ReserveItem extends PureComponent {
 
         sections.sort(compare);
         if (!sections) return null;
-        // console.log(sections, 'kdhjfk');
-
-        // return (<View>
-        //     <Text>111</Text>
-        // </View>)
 
         return (
             <Content style={{ backgroundColor: "white" }}>
